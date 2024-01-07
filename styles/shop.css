@@ -1,0 +1,67 @@
+/* global css */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+body {
+  
+}
+
+/* header css items */
+
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: auto;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .banner-text .banner-heading {
+  color: #272727;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.banner-para {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  margin-bottom: 32px;
+ 
+}
+.btn-primary {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+.btn-primary:hover{
+    background: #960323;
+
+}
+
+.banner .banner-img img{
+    
+    vertical-align: middle;
+    padding-left: 150px;
+
+}
